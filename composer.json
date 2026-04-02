@@ -1,0 +1,72 @@
+{
+  "name": "firehub/phpstan-rules",
+  "description": "Custom PHPStan rules and extensions for FireHub projects, providing strict static analysis, architectural validation, and enhanced type safety",
+  "type": "library",
+  "keywords": ["php", "phpstan", "phpstan-rules", "firehub"],
+  "homepage": "https://the-firehub-project.github.io/PHPStan-Rules",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^2.0",
+    "phpstan/phpstan-strict-rules": "^2.0",
+    "firehub/core-foundation": "~0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "FireHub\\PHPStan\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Danijel Galić",
+      "email": "danijel.galic@outlook.com",
+      "homepage": "https://github.com/dieselxxx",
+      "role": "Owner"
+    }
+  ],
+  "support": {
+    "email": "danijel.galic@outlook.com",
+    "issues": "https://github.com/The-FireHub-Project/PHPStan-Rules/issues",
+    "forum": "https://github.com/orgs/The-FireHub-Project/discussions",
+    "source": "https://github.com/The-FireHub-Project/PHPStan-Rules",
+    "docs": "https://the-firehub-project.github.io/PHPStan-Rules",
+    "security": "https://github.com/The-FireHub-Project/PHPStan-Rules/security/policy"
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/The-FireHub-Project"
+    }
+  ],
+  "config": {
+    "process-timeout": 900,
+    "preferred-install": {
+      "*": "dist"
+    },
+    "notify-on-install": true,
+    "github-protocols": ["https", "ssh", "git"],
+    "disable-tls": false,
+    "secure-http": true,
+    "vendor-dir": "vendor",
+    "archive-format": "tar",
+    "archive-dir": ".",
+    "bin-dir": "vendor/bin",
+    "bin-compat": "auto",
+    "prepend-autoloader": false,
+    "autoloader-suffix": "null",
+    "optimize-autoloader": false,
+    "classmap-authoritative": false,
+    "apcu-autoloader": false,
+    "htaccess-protect": true,
+    "lock": true,
+    "platform-check": true,
+    "sort-packages": true,
+    "allow-missing-requirements": false,
+    "store-auths": "prompt",
+    "use-parent-dir": "prompt"
+  }
+}
