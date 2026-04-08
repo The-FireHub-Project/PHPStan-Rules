@@ -9,8 +9,6 @@
  *
  * @php-version 7.4
  * @package PHPStan\Rule
- *
- * @version GIT: $Id$ Blob checksum.
  */
 
 namespace FireHub\PHPStan\Rule;
