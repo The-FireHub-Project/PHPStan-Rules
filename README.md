@@ -51,7 +51,7 @@ This package extends PHPStan with FireHub-specific validation rules and helpers 
 
 ---
 
-## <img src="https://raw.githubusercontent.com/The-FireHub-Project/the-firehub-project.github.io/master/resources/graphics/icons/firehub.svg" width="15" alt="FireHub Icon"> Core Value Object System – Development Branch
+## <img src="https://raw.githubusercontent.com/The-FireHub-Project/the-firehub-project.github.io/master/resources/graphics/icons/firehub.svg" width="15" alt="FireHub Icon"> PHPStan Base Config – Development Branch
 
 ⚠️ **This is the `development` branch**
 
