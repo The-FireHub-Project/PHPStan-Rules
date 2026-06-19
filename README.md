@@ -22,7 +22,8 @@
   /></a>
 </h1>
 
-<a href="https://github.com/The-FireHub-Project/PHPStan-Rules">
+<p>
+  <a href="https://github.com/The-FireHub-Project/PHPStan-Rules">
     <img
       src="https://img.shields.io/github/created-at/The-FireHub-Project/PHPStan-Rules?style=flat&logo=github&logoColor=959da5&label=created%20at&labelColor=31373e"
       alt="GitHub created at"
@@ -62,6 +63,7 @@
       src="https://img.shields.io/github/languages/code-size/The-FireHub-Project/PHPStan-Rules?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSIyNHB4IiBmaWxsPSIjOTU5ZGE1Ij48cGF0aCBkPSJNMzIwLTI0MCA4MC00ODBsMjQwLTI0MCA1NyA1Ny0xODQgMTg0IDE4MyAxODMtNTYgNTZabTMyMCAwLTU3LTU3IDE4NC0xODQtMTgzLTE4MyA1Ni01NiAyNDAgMjQwLTI0MCAyNDBaIi8+PC9zdmc+&logoColor=959da5&label=code%20size&labelColor=31373e"
       alt="GitHub code size"
   /></a>
+</p>
 
 **FireHub PHPStan Rules** is a collection of custom PHPStan rules and extensions designed to enforce strict architectural standards, improve static analysis, and ensure type safety across FireHub projects.
 
