@@ -1,0 +1,48 @@
+{
+  "name": "the-firehub-project/phpstan-rules",
+  "description": "A centralized quality enforcement layer for the FireHub ecosystem, providing shared PHPStan configuration and custom static analysis rules.",
+  "type": "library",
+  "keywords": ["php", "firehub", "phpstan", "phpstan-rules"],
+  "homepage": "https://the-firehub-project.github.io/phpstan-rules",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0",
+    "phpstan/phpstan": "^2.0"
+  },
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Danijel Galić",
+      "email": "danijel.galic@outlook.com",
+      "homepage": "https://github.com/dieselxxx",
+      "role": "Owner"
+    }
+  ],
+  "support": {
+    "email": "danijel.galic@outlook.com",
+    "issues": "https://github.com/The-FireHub-Project/PHPStan-Rules/issues",
+    "forum": "https://github.com/orgs/The-FireHub-Project/discussions",
+    "source": "https://github.com/The-FireHub-Project/PHPStan-Rules",
+    "docs": "https://the-firehub-project.github.io/PHPStan-Rules",
+    "security": "https://github.com/The-FireHub-Project/PHPStan-Rules/security/policy"
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/The-FireHub-Project"
+    }
+  ],
+  "config": {
+    "prepend-autoloader": false,
+    "optimize-autoloader": true,
+    "platform-check": true
+  },
+  "extra": {
+    "firehub": {
+      "layer": "none",
+      "edition": "standard",
+      "role": "repository-governance-interface-layer",
+      "criticality": "critical"
+    }
+  }
+}
