@@ -6,8 +6,11 @@
   "homepage": "https://the-firehub-project.github.io/phpstan-rules",
   "license": "MIT",
   "require": {
-    "php": "^8.0",
-    "phpstan/phpstan": "^2.0"
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^2.0",
+    "phpstan/phpstan-strict-rules": "^2.0"
   },
   "minimum-stability": "stable",
   "authors": [
