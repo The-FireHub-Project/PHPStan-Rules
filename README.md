@@ -23,19 +23,19 @@
 </h1>
 
 <p>
-  <a href="https://github.com/The-FireHub-Project/PHPStan-Rules/commits/architecture/phpstan-base-config/">
+  <a href="https://github.com/The-FireHub-Project/PHPStan-Rules/commits/develop/">
     <img
-      src="https://img.shields.io/github/last-commit/The-FireHub-Project/PHPStan-Rules/architecture/phpstan-base-config?style=flat&logo=github&logoColor=959da5&label=last%20commit%20(branch)&labelColor=31373e"
+      src="https://img.shields.io/github/last-commit/The-FireHub-Project/PHPStan-Rules/develop?style=flat&logo=github&logoColor=959da5&label=last%20commit%20(branch)&labelColor=31373e"
       alt="GitHub last commit (branch)"
   /></a>
-  <a href="https://github.com/The-FireHub-Project/PHPStan-Rules/commits/architecture/phpstan-base-config/">
+  <a href="https://github.com/The-FireHub-Project/PHPStan-Rules/commits/develop/">
     <img
-      src="https://img.shields.io/github/commit-activity/m/The-FireHub-Project/PHPStan-Rules/architecture/phpstan-base-config?style=flat&logo=github&logoColor=959da5&label=commit%20activity%20(branch)&labelColor=31373e"
+      src="https://img.shields.io/github/commit-activity/m/The-FireHub-Project/PHPStan-Rules/develop?style=flat&logo=github&logoColor=959da5&label=commit%20activity%20(branch)&labelColor=31373e"
       alt="GitHub activity (branch)"
   /></a>
-  <a href="https://github.com/The-FireHub-Project/PHPStan-Rules/compare/develop...architecture/phpstan-base-config/">
+  <a href="https://github.com/The-FireHub-Project/PHPStan-Rules/compare/master...develop/">
     <img
-      src="https://img.shields.io/github/commits-difference/The-FireHub-Project/PHPStan-Rules?base=develop&head=architecture/phpstan-base-config&style=flat&logo=github&logoColor=959da5&label=ahead%20develop&labelColor=31373e"
+      src="https://img.shields.io/github/commits-difference/The-FireHub-Project/PHPStan-Rules?base=master&head=develop&style=flat&logo=github&logoColor=959da5&label=ahead%20master&labelColor=31373e"
       alt="GitHub commit difference between two branches"
   /></a>
 </p>
@@ -51,75 +51,47 @@ This package extends PHPStan with FireHub-specific validation rules and helpers 
 
 ---
 
-## <img src="https://raw.githubusercontent.com/The-FireHub-Project/the-firehub-project.github.io/master/resources/graphics/icons/firehub.svg" width="15" alt="FireHub Icon"> PHPStan Base Config – Development Branch
+## <img src="https://raw.githubusercontent.com/The-FireHub-Project/the-firehub-project.github.io/master/resources/graphics/icons/firehub.svg" width="15" alt="FireHub Icon"> Development Branch
 
-⚠️ **This is the `development` branch**
+⚠️ **This is the `develop` branch**
 
 - Unstable
 - APIs may change without notice
 - Not intended for production use
 
-### Related
-
-- Milestone: **Development v1**
-- Target Release: **v0.0.0**
-- Repository: FireHub PHPStan Rules
-
-### Pull request
-
-<p>
-  <a href="https://github.com/The-FireHub-Project/PHPStan-Rules/pull/2/">
-    <img
-      src="https://img.shields.io/github/pulls/detail/title/The-FireHub-Project/PHPStan-Rules/2?style=flat&logo=github&logoColor=959da5&label=title&labelColor=31373e"
-      alt="GitHub pull request title"
-  /></a>
-  <a href="https://github.com/The-FireHub-Project/PHPStan-Rules/pull/2/">
-    <img
-      src="https://img.shields.io/github/pulls/detail/author/The-FireHub-Project/PHPStan-Rules/2?style=flat&logo=github&logoColor=959da5&labelColor=31373e"
-      alt="GitHub pull request author"
-  /></a>
-  <a href="https://github.com/The-FireHub-Project/PHPStan-Rules/pull/2/">
-    <img
-      src="https://img.shields.io/github/pulls/detail/age/The-FireHub-Project/PHPStan-Rules/2?style=flat&logo=github&logoColor=959da5&labelColor=31373e"
-      alt="GitHub pull request created"
-  /></a>
-  <a href="https://github.com/The-FireHub-Project/PHPStan-Rules/pull/2/">
-    <img
-      src="https://img.shields.io/github/pulls/detail/comments/The-FireHub-Project/PHPStan-Rules/2?style=flat&logo=github&logoColor=959da5&labelColor=31373e"
-      alt="GitHub pull request comments"
-  /></a>
-</p>
-
 ## <img src="https://raw.githubusercontent.com/The-FireHub-Project/the-firehub-project.github.io/master/resources/graphics/icons/firehub.svg" width="15" alt="FireHub Icon"> Branch Purpose
 
-Introduce a shared PHPStan base configuration (**base.neon**) that will serve as the default static analysis standard across all FireHub repositories (Core, Runtime, Adapters, and Capabilities).
+The `develop` branch is the **primary integration branch** for all ongoing development.
 
-This branch establishes a centralized and reusable configuration layer to eliminate duplication and enforce consistent static analysis rules across the entire ecosystem.
+It serves as the staging area where:
+- Feature branches are merged
+- Bug fixes are integrated
+- Experimental work is stabilized
+- Code is prepared for upcoming releases
 
-## <img src="https://raw.githubusercontent.com/The-FireHub-Project/the-firehub-project.github.io/master/resources/graphics/icons/firehub.svg" width="15" alt="FireHub Icon"> Architectural Goal
+All **release branches** are created **from `develop`**.
 
-To define a single source of truth for static analysis behavior in FireHub by introducing a shared configuration layer that:
+## Stability Guarantee
 
-- standardizes PHPStan behavior across all repositories
-- enforces consistent type-safety and code quality rules
-- reduces configuration drift between Core, Runtime, and Adapter layers
-- enables controlled overrides for repository-specific needs without breaking the baseline
+❌ No backward compatibility guarantee  
+❌ APIs may change without notice  
+❌ Behavior may be incomplete or inconsistent  
+❌ Breaking changes are expected
 
-This creates a clear separation between:
+This branch is intended **only for contributors and advanced testers**.
 
-- Global Quality Baseline (base.neon)
-- Repository-specific extensions
-- Domain/runtime implementation logic
+## <img src="https://raw.githubusercontent.com/The-FireHub-Project/the-firehub-project.github.io/master/resources/graphics/icons/firehub.svg" width="15" alt="FireHub Icon"> Composer Usage (Not Recommended)
 
-## <img src="https://raw.githubusercontent.com/The-FireHub-Project/the-firehub-project.github.io/master/resources/graphics/icons/firehub.svg" width="15" alt="FireHub Icon"> Core Concept
+For internal testing only:
 
-> “Static analysis is not a per-repository concern, but a system-wide architectural contract.”
-
-This branch introduces the idea that:
-
-- code quality rules are centralized and enforced globally
-- PHPStan configuration becomes part of the architecture layer, not local tooling
-- all FireHub components must conform to a shared correctness model before runtime
+```json
+{
+  "require": {
+    "the-firehub-project/phpstan-rules": "dev-develop"
+  }
+}
+```
+⚠️ Never use dev-develop in production.
 
 ## <img src="https://raw.githubusercontent.com/The-FireHub-Project/the-firehub-project.github.io/master/resources/graphics/icons/firehub.svg" width="15" alt="FireHub Icon"> Authors and Contributors
 
